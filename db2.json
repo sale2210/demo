@@ -1,4 +1,6 @@
-[  
-       { "id" : 2,"info": { "name": "John", "surname": "Smith" }, "age": 25 },  
-       { "id" : 5,"info": { "name": "Jane", "surname": "Smith" }, "dob": "2005-11-04T12:00:00" }  
-]
+{
+       [  
+              { "id" : 2,"info": { "name": "John", "surname": "Smith" }, "age": 25 },  
+              { "id" : 5,"info": { "name": "Jane", "surname": "Smith" }, "dob": "2005-11-04T12:00:00" }  
+       ]
+}
