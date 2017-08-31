@@ -1,18 +1,14 @@
-[  
-       { 
-               "id" : 2,
-               "info": { 
-                            "name": "John", 
-                            "surname": "Smith" 
-                       }, 
-                "age": 25 
-       },  
-       {
-              "id" : 5,
-              "info": { 
-                            "name": "Jane", 
-                            "surname": "Smith" 
-                       }, 
-              "dob": "2005-11-04T12:00:00" 
-       }  
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
